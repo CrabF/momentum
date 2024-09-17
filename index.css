@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
 
 .wrap {
@@ -31,6 +32,7 @@
   top: 20px;
   right: 40px;
   font-size: 50px;
+  font-weight: 400;
 }
 
 .todo {
@@ -108,6 +110,7 @@
   color: white;
   font-size: 50px;
   left: 40px;
+  font-weight: 400;
 }
 
 .weather {
@@ -116,6 +119,7 @@
   color: white;
   font-size: 35px;
   left: 40px;
+  font-weight: 400;
 }
 
 .input[type="checkbox"] {

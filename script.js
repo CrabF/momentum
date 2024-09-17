@@ -132,7 +132,7 @@ function displayTodo() {
       height: 20px;' type='checkbox' id=${item.id} ${
       item.checked ? "checked" : ""
     }>
-    <p style='width: 100%; text-decoration: ${
+    <p style='width: 100%; font-weight: 400; text-decoration: ${
       item.checked ? "line-through" : "none"
     };'>${item.value}</p>
       <img style='object-fit: cover' src="./public/icons/Delete.svg" alt="корзина">
