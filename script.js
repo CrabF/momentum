@@ -265,7 +265,7 @@ buttonGeo.addEventListener("click", () => {
           temp.textContent =
             "Сейчас" +
             " " +
-            weatherType[res.hourly.weather_code[hour]] +
+            (weatherType[res.hourly.weather_code[hour]]).toLowerCase() +
             " " +
             res.hourly.temperature_2m[hour] +
             " " +
@@ -276,7 +276,7 @@ buttonGeo.addEventListener("click", () => {
             JSON.stringify(
               "Сейчас" +
                 " " +
-                weatherType[res.hourly.weather_code[hour]] +
+                (weatherType[res.hourly.weather_code[hour]]).toLowerCase() +
                 " " +
                 res.hourly.temperature_2m[hour] +
                 " " +
@@ -343,7 +343,7 @@ setInterval(() => {
     temp.textContent =
       "Сейчас" +
       " " +
-      weatherType[res.hourly.weather_code[hour]] +
+      (weatherType[res.hourly.weather_code[hour]]).toLowerCase() +
       " " +
       res.hourly.temperature_2m[hour] +
       " " +
@@ -354,7 +354,7 @@ setInterval(() => {
       JSON.stringify(
         "Сейчас" +
           " " +
-          weatherType[res.hourly.weather_code[hour]] +
+          (weatherType[res.hourly.weather_code[hour]]).toLowerCase() +
           " " +
           res.hourly.temperature_2m[hour] +
           " " +
