@@ -66,4 +66,4 @@
 2. Откройте `index.html` в браузере.
 
 ## :eyes: Просмотр проекта
-Проект размещен [здесь](https://crabf.github.io/digitalSector/)
+Проект размещен [здесь](https://crabf.github.io/momentum/)
